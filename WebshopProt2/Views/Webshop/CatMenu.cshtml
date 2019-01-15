@@ -1,0 +1,13 @@
+﻿@model IEnumerable<WebshopProt2.Models.WebShop.Categories>
+
+
+<ul id="categories">
+    @foreach (var categories in Model)
+    {
+        <li>
+            @Html.ActionLink(categories.CategoryName,
+                "Browse", "Shop",
+                new { Category = categories.CategoryName }, null)
+        </li>
+    }
+</ul>

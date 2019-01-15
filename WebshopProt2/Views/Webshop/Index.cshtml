@@ -1,0 +1,18 @@
+﻿@model IEnumerable<WebshopProt2.Models.WebShop.Categories>
+
+@{
+    ViewBag.Title = "Shop";
+}
+
+<p>
+    Select from our @Model.Count() genres:
+</p>
+
+<ul>
+    @foreach (var categories in Model)
+    {
+        <li>@Html.ActionLink(categories.CategoryName, "Browse", new { categories = categories.CategoryName})</li>
+    }
+
+</ul>
+

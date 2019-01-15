@@ -1,0 +1,21 @@
+﻿@model WebshopProt2.Models.WebShop.Categories
+
+@{
+    ViewBag.Title = "Browse";
+}
+
+<div class="genre">
+    <h3><em>@Model.CategoryName</em>Books</h3>
+
+    <ul id="item-list">
+        @foreach (var item in Model.Items)
+        {
+            <li>
+                <a href="@Url.Action("Details", new { id = item.ID })">
+                    <img alt="@item.Title" src="@item.ItemPictureUrl" />
+                    <span>@item.Title</span>
+                </a>
+            </li>
+        }
+    </ul>
+</div>

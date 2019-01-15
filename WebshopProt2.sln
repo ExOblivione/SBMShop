@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25928.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebshopProt2", "WebshopProt2\WebshopProt2.csproj", "{0E4C62B4-1A64-4ED7-9E7D-6B267A070221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBMDispatcher", "SBMDispatcher\SBMDispatcher.csproj", "{E58D4DE0-0234-4C19-B577-5328C547D76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBMReader", "SBMReader\SBMReader.csproj", "{56E5AF79-1E1A-419A-988A-EBAFC59B26B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E4C62B4-1A64-4ED7-9E7D-6B267A070221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4C62B4-1A64-4ED7-9E7D-6B267A070221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4C62B4-1A64-4ED7-9E7D-6B267A070221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4C62B4-1A64-4ED7-9E7D-6B267A070221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58D4DE0-0234-4C19-B577-5328C547D76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58D4DE0-0234-4C19-B577-5328C547D76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58D4DE0-0234-4C19-B577-5328C547D76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58D4DE0-0234-4C19-B577-5328C547D76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E5AF79-1E1A-419A-988A-EBAFC59B26B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E5AF79-1E1A-419A-988A-EBAFC59B26B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E5AF79-1E1A-419A-988A-EBAFC59B26B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E5AF79-1E1A-419A-988A-EBAFC59B26B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿@model WebshopProt2.Models.WebShop.Item
+
+
+
+<h2>@Model.Title</h2>
+
+<p>
+    <img alt="@Model.Title" src="@Model.ItemPictureUrl" />
+</p>
+
+<div id="item-details">
+    <p>
+        <em>Genre:</em>
+        @Model.Categories.CategoryName
+    </p>
+    <p>
+        <em>Price:</em>
+        @String.Format("{0:F}", Model.Price)
+    </p>
+    <p class="button">
+        @Html.ActionLink("Add to cart", "AddToCart",
+        "ShoppingCart", new { id = Model.ID }, "")
+    </p>
+</div>
+
+
