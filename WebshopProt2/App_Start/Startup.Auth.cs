@@ -47,21 +47,21 @@ namespace WebshopProt2
 
             // Uncomment the following lines to enable logging in with third party login providers
             app.UseMicrosoftAccountAuthentication(
-                clientId: "94a73af0-395a-404b-8192-db96b08eecea",
-                clientSecret: "k6KPWmi8zxX0w2gCzE2evhD");
+                clientId: "*******************************",
+                clientSecret: "*******************************");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "124172378146488",
-               appSecret: "9fd6b16c056f7715094818150c5b45a3");
+               appId: "*******************************",
+               appSecret: "*******************************");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "1693411279-vlc4h1e79dcbmthin6eckfsjf54lpc5n.apps.googleusercontent.com",
-                ClientSecret = "VzH2W8MoWjsgP6reu81PbCRD"
+                ClientId = "*******************************",
+                ClientSecret = "*******************************"
             });
         }
     }
